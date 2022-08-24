@@ -13,7 +13,7 @@ const GithubProfileCard = ({ prof }) => {
 					<Row className="">
 						<Col className="order-lg-2" lg="4">
 							<img
-								src={prof.avatar_url}
+								src="https://avatars.githubusercontent.com/u/44203236?v=4"
 								style={{ width: "200px" }}
 								alt=""
 								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
@@ -25,10 +25,10 @@ const GithubProfileCard = ({ prof }) => {
 								DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY
 								INBOX IS OPEN FOR ALL AND MY NUMBER IS 03117430530
 							</p>
-							<p className="text-white mt-3">{prof.bio}</p>
+							<p className="text-white mt-3">IT Engineer</p>
 							<div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
 								<i className="ni ni-pin-3 text-info mr-2" />
-								{prof.location}
+								Pakistan
 							</div>
 							<SocialLinks />
 						</Col>
